@@ -28,4 +28,30 @@ This was preferred over a snapshot that automatically listens to any changes wit
 
 <img src="https://img.shields.io/badge/-React%20Native-78C77C"/> <img src="https://img.shields.io/badge/-Expo-FFAE94"/> <img src="https://img.shields.io/badge/-Firebase-79BEEE"/>
 
+## getting started
+
+1. Clone the repository and install the dependencies
+```
+git clone https://github.com/msleeuwenhoek/track-it.git
+cd track-it
+npm install
+```
+
+2. Create a [new firebase project](https://console.firebase.google.com/)
+
+3. Enable authentication with email/password on your firebase project
+
+4. Update the firebase config file
+  - Get your configuration data from [your project](https://console.firebase.google.com/project/_/settings/general/).
+  - Then update the [firebase config file](./config/firebase.js) in your repository.
+
+```
+apiKey: "  YOUR API_KEY",
+authDomain: "YOUR AUTH_DOMAIN",
+projectId: "YOUR PROJECT_ID",
+storageBucket: "YOUR STORAGE_BUCKET",
+messagingSenderId: "YOUR MESSAGING_SENDER_ID",
+appId: "YOUR APP_ID",
+measurementId: "YOUR MEASUREMENT_ID",
+```
 

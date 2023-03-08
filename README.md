@@ -46,7 +46,7 @@ npm install
   - Then update the [firebase config file](./config/firebase.js) in your repository.
 
 ```
-apiKey: "  YOUR API_KEY",
+apiKey: "YOUR API_KEY",
 authDomain: "YOUR AUTH_DOMAIN",
 projectId: "YOUR PROJECT_ID",
 storageBucket: "YOUR STORAGE_BUCKET",

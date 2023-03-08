@@ -1,0 +1,6 @@
+{
+  "search": "react-native",
+  "platform": "react-native",
+  "destination": "src/components",
+  "scss": false
+}
